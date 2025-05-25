@@ -122,8 +122,8 @@ if not api_key:
     raise ValueError("API key is missing. Please set the TICKETMASTER_API_KEY in your .env file.")
 
 cities = ['Leeds', 'Manchester', 'London']
-start_date = '2024-01-01T00:00:00Z'
-end_date = '2024-12-31T23:59:59Z'
+start_date = '2025-05-01T00:00:00Z'
+end_date = '2025-10-31T23:59:59Z'
 
 for city in cities:
     print(f"\nSearching events in {city}...\n")
